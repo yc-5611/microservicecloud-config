@@ -14,7 +14,7 @@ spring:
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/cloudDB01
     username: root
-    password: 123456
+    password: mysql
     dbcp2:
       min-idle: 5
       initial-size: 5
@@ -51,7 +51,7 @@ spring:
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/cloudDB02
     username: root
-    password: 123456
+    password: mysql
     dbcp2:
       min-idle: 5
       initial-size: 5
@@ -74,7 +74,7 @@ eureka:
     prefer-ip-address: true
  
 info:
-  app.name: atguigu-microservicecloud-springcloudconfig02
-  company.name: www.atguigu.com
+  app.name: codewyx-microservicecloud
+  company.name: www.codewxyc.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
